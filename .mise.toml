@@ -1,0 +1,7 @@
+[tools]
+ruby = "3.3"
+python = "3.13"
+uv = "latest"
+
+[env]
+_.python.venv = { path = ".venv", create = true, uv_create_args = ['--seed'] }
